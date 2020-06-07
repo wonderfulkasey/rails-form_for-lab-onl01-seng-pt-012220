@@ -29,3 +29,5 @@ def index
 	def strong_params(*args)
 		params.require(:student).permit(*args)
 	end
+end
+end
