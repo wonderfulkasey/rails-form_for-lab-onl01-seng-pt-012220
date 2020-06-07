@@ -30,4 +30,3 @@ def index
 		params.require(:student).permit(*args)
 	end
 end
-end
